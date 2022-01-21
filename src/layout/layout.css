@@ -1,0 +1,75 @@
+.main {
+  height: 100%;
+}
+.Header {
+  height: 80px;
+  background: #cfcfcf;
+  box-sizing: border-box;
+  line-height: 80px;
+  padding: 0 20px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.Header .header-right {
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+.Header .header-right .userName {
+  height: 100%;
+}
+.Header .header-right .userName .ant-dropdown-trigger {
+  color: #fff !important;
+}
+.Header .header-right .userName .userInfo .avatarImage {
+  height: 40px;
+  vertical-align: middle;
+}
+.Header .header-right .userName .userInfo .nickName {
+  margin-left: 3px;
+  vertical-align: middle;
+  letter-spacing: 2px;
+}
+.Header .header-right .userName .DownOutlined {
+  margin-left: 3px;
+  font-size: 12px;
+  vertical-align: middle;
+  font-weight: 700;
+}
+.content {
+  display: flex;
+  height: calc(100% - 80px);
+}
+.content .LeftNav {
+  flex: none;
+  background: darkgray;
+}
+.content .LeftNav .ant-menu {
+  height: 100%;
+}
+.content .pages {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.loading {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table_btn {
+  background: #a0a0a0 !important;
+  border: none !important;
+}
+.table_btn::after {
+  background: #e2e2e2 !important;
+  box-shadow: none !important;
+}

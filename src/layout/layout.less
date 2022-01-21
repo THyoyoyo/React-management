@@ -1,0 +1,100 @@
+ .main {
+     height: 100%;
+ }
+
+ .Header {
+     height         : 80px;
+     background     : rgb(207, 207, 207);
+     box-sizing     : border-box;
+     line-height    : 80px;
+     padding        : 0 20px;
+     font-size      : 28px;
+     font-weight    : 700;
+     letter-spacing : 3px;
+     color          : rgb(255, 255, 255);
+     display        : flex;
+     justify-content: space-between;
+
+     .header-right {
+         font-size     : 20px;
+         letter-spacing: 0px;
+         display       : flex;
+         align-items   : center;
+         padding-right : 30px;
+
+
+
+         .userName {
+             height: 100%;
+
+             .ant-dropdown-trigger {
+                 color: #fff !important;
+             }
+
+             .userInfo {
+                 .avatarImage {
+                     height        : 40px;
+                     vertical-align: middle;
+                 }
+
+                 .nickName {
+                     margin-left   : 3px;
+                     vertical-align: middle;
+                     letter-spacing: 2px;
+                 }
+             }
+
+             .DownOutlined {
+                 margin-left   : 3px;
+                 font-size     : 12px;
+                 vertical-align: middle;
+                 font-weight   : 700;
+             }
+
+
+         }
+
+
+
+
+     }
+ }
+
+ .content {
+     display: flex;
+     height : calc(100% - 80px);
+
+     .LeftNav {
+         //  width     : 200px;
+         flex      : none;
+         background: darkgray;
+
+         .ant-menu {
+             height: 100%;
+         }
+     }
+
+     .pages {
+         flex      : 1;
+         padding   : 10px;
+         box-sizing: border-box;
+         overflow  : auto;
+     }
+ }
+
+ .loading {
+     height         : 100%;
+     display        : flex;
+     justify-content: center;
+     align-items    : center;
+ }
+
+ .table_btn {
+     background: rgb(160, 160, 160) !important;
+     border    : none !important;
+
+     &::after {
+         background: rgb(226, 226, 226) !important;
+         box-shadow: none !important;
+     }
+ }

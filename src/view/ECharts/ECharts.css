@@ -1,0 +1,14 @@
+.ECharts {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 10px;
+}
+.ECharts .chart-item {
+  width: 32%;
+  height: 48.5%;
+  flex: none;
+  border: 1px solid #eee;
+}
